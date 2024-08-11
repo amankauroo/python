@@ -3,9 +3,9 @@
 # import complex math module
 import cmath
 
-a = input(int("Enter coefficient of x square term: "))
-b = input(int("Enter coefficient of x term: "))
-c = input(int("Enter constant term: "))
+a = int(input("Enter coefficient of x square term: "))
+b = int(input("Enter coefficient of x term: "))
+c = int(input("Enter constant term: "))
 
 # calculate the discriminant
 d = (b**2) - (4*a*c)
